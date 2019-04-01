@@ -10,7 +10,7 @@ pipeline {
     }
 	   stage ('deploy') {
 	    steps{
-		    sh 'rsync -r "$WORKSPACE/public/" pi@pi.local:/home/pi/sites/vinnyt.org'
+		    sh 'rsync -r "$WORKSPACE/public/" pi@pi.local:/var/www/html'
 	    }
 	   }
     }
