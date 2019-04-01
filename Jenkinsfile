@@ -5,12 +5,12 @@ pipeline {
     stages {
 	   stage ('build') {
       steps{
-		    sh 'hugo -D -F -b "http://10.1.1.77"'
+		    sh 'hugo -D -F -b "https://vinnyt.org"'
 	    }
     }
 	   stage ('deploy') {
 	    steps{
-		    sh 'rsync -r "$WORKSPACE/public/" ryan@ponyta:/usr/share/nginx/html/'
+		    sh 'rsync -r "$WORKSPACE/public/" pi@pi.local:/home/pi/sites/vinnyt.org'
 	    }
 	   }
     }
