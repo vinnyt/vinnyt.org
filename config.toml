@@ -13,6 +13,9 @@ pygmentsUseClasses = true # new add
 
 disqusShortname = "yourdiscussshortname" # Enable or disable Disqus.
 
+[outputs]
+  home = ["HTML", "RSS", "JSON"]
+
 [params] # theme parameters
     author = "Vincent Toms" # Author's name.
     info = "Multiplatform Mobile Engineer" # Author's job title or info.
