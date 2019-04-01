@@ -18,7 +18,7 @@ disqusShortname = "yourdiscussshortname" # Enable or disable Disqus.
     info = "Multiplatform Mobile Engineer" # Author's job title or info.
     description = "Vincent's personal website" # Site description.
     keywords = "blog,developer,personal,swift,kotlin,android,ios,realm,rx,golang" # Site keywords.
-    avatarurl = "images/25773.jpg" # Contain the path of the optionnal avatar in the static folder.
+    avatarurl = "25773.jpg" # Contain the path of the optionnal avatar in the static folder.
 
     #footercontent = "Enter a text here." # Add footer content
     #fixedbarContent = "Feel free to drop me a line→" # Add fixedbar content
